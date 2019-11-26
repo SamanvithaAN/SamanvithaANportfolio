@@ -1,0 +1,480 @@
+@font-face{
+  font-family:'Roboto_Regular';
+  src: url('/public/font/Roboto_Regular.ttf');
+  
+}
+a{
+  text-decoration: none;
+  color: white;
+}
+body{
+    width: 100%;
+    margin: auto;
+    background: rgb(30,30,30);
+    font-family: 'Roboto_Regular';
+}
+
+.header{
+   width:100%;
+   height: 7vw;
+   background: rgb(28,28,28);
+   box-shadow: 2px 2px 1vw 10px rgb(45,45,45);
+   font-family: 'Roboto_Regular';
+  }
+
+.header_container{
+  width: 90%;
+  height: 5vw;
+  margin: auto;
+  padding-top: 1vw;
+  display: grid;
+  grid: 100%/ 15% 70% 15%;
+  }
+ .logo{
+  margin-top: 0.8vw;
+  width: 14vw;
+  text-align: center;
+  height: 5vw;
+  margin-left: -1vw;
+  font-size: 2.1vw;
+  color: rgb(0,255,242);
+  font-weight: bold;
+  }
+.logo .line{
+  width: 30%;
+  height: 3px;
+  background: rgb(0,255,242);
+  margin: auto;
+  margin-top: 0.5vw;
+}
+.options_container{
+    margin-top: 3vw;
+    margin: auto;
+    width: 27vw;
+    height: 5vw;
+    display: grid;
+    grid: auto/ 20% 20% 20% 20% 20%;
+  }
+  
+   .options_container .graphics{
+     width: 100%;
+    margin: auto;
+    margin-top: 0.4vw;
+  
+   }
+  .options_container .graphics img{
+   width: 55%;
+    margin: auto;
+    margin-top: -0.5vw;
+    margin-bottom: 0.45vw;
+    margin-left: 1vw;
+    color: white;
+   } 
+  .options_container .graphicsline{
+   width: 100%;
+    height: 3px;
+    background: rgb(0, 255, 242);
+     margin-bottom: 0.5vw;
+  }
+  .options_container .graphics .Graphicstext{
+     font-size: 1vw;
+    text-align: center;
+    color:rgb(0, 255, 242);
+  }
+  
+  .options_container .sketching{
+    width: 100%;
+    margin: auto;
+    margin-top: 0.4vw;
+  
+    }
+  .sketchingimg{
+    width: 100%;
+    margin: auto;
+  }
+  .options_container .sketching img{
+     width: 40%;
+    margin-top: 0.8vw;
+    margin: auto;
+    margin-bottom: 0.75vw;
+      margin-left: 1.4vw;
+    color: white;
+   } 
+  .options_container .sketchingline{
+    width: 100%;
+    height: 3px;
+    margin-bottom: 0.5vw;
+    background: grey;
+  }
+  .options_container .Sketchingtext{
+    font-size: 0.8vw;
+    text-align: center;
+    color: white;
+  }
+ .options_container .UIUX{
+    width: 100%;
+    margin: auto;
+    margin-top: 0.4vw;
+  
+  }
+  .UIUXimg{
+  width: 100%;
+    margin: auto;
+    margin-top: 0.4vw;
+  }
+  .options_container .UIUX img{
+    width: 48%;
+    margin: auto;
+    margin-top: -0.3vw;
+    margin-bottom: 0.25vw;
+    margin-left: 1.4vw;
+    color: white;
+   } 
+  .options_container .UIUXline{
+   width: 100%;
+    height: 3px;
+    background: grey;
+    margin-bottom: 0.5vw;
+  }
+  .options_container .UI_UXtext{
+    font-size: 0.8vw;
+    text-align: center;
+    color: white;
+  }
+  .options_container .research{
+    width: 100%;
+    margin: auto;
+    margin-top: 0.4vw;
+  
+   }
+  .options_container .research img{
+    width: 48%;
+    margin: auto;
+    margin-top: -0.3vw;
+    margin-bottom: 0.65vw;
+    margin-left: 1.4vw;
+    color: white;
+   } 
+  .options_container .researchline{
+    width: 100%;
+    height: 3px;
+    background: grey;
+    margin-bottom: 0.5vw;
+  }
+  
+  .options_container .researchtext{
+    font-size: 0.8vw;
+    text-align: center;
+    color: white;
+  }
+  
+  .options_container .gamedesign{
+    width: 100%;
+    margin: auto;
+    margin-top: 0.4vw;
+   }
+  .options_container .gamedesign img{
+    width: 47%;
+    margin: auto;
+    margin-top: 0.4vw;
+    margin-bottom: 0vw;
+    margin-left: 1.3vw;
+    color: white;
+   } 
+  .options_container .gamedesignline{
+    width: 100%;
+    height: 3px;
+    background: grey;
+    margin-bottom: 0.5vw;
+  }
+  .options_container .Game_Designtext{
+    font-size: 0.8vw;
+    text-align: center;
+    color: white;
+  }
+.name{
+  margin: left;
+  margin-top: 0.8vw;
+  width: 14vw;
+  text-align: center;
+  height: 5vw;
+  font-size: 1.8vw;
+  color: white;
+  font-style: italic; 
+ }
+
+.body{
+  width: 100%;
+  height: 42vw;
+  margin: auto;
+  display: grid;
+  grid: auto/ 15% 85% ; 
+}
+.timeline{
+  width: 2vw;
+  margin-top: 2vw; 
+  margin: auto;
+  height: 20vw;
+  display: inline-block;
+ }
+
+.timeline .line{
+  width: 0.1vw;
+  height: 12vw;
+  background: white;
+  margin-left: 2vw;
+}
+
+.timeline .dots{
+  position: absolute;
+  z-index: 2;
+  margin-top: -13vw; 
+  margin-left: 1.55vw;
+  display: grid;
+  grid: 25% 25% 25% 25%/ 100%;
+  gap: 3vw;
+}
+.timeline .c2016{
+  background: white;
+  width:1vw;
+  height: 1vw;
+  border-radius: 1vw;
+}
+.c2016 .t2016{
+  color: white;
+  margin-left: 2vw; 
+}
+.timeline .c2017{
+  background: white;
+  width: 1vw;
+  height: 1vw;
+  border-radius: 1vw;
+}
+.c2017 .t2017{
+  color: white;
+  margin-left: 2vw; 
+}
+.timeline .c2018{
+  background: white;
+  width:1vw;
+  height: 1vw;
+  border-radius: 1vw;
+}
+.c2018 .t2018{
+  color: white;
+  margin-left: 2vw; 
+}
+.timeline .c2019{
+  background: white;
+  width:1vw;
+  height: 1vw;
+  border-radius: 1vw;
+}
+.c2019 .t2019{
+  color: white;
+  margin-left: 2vw; 
+
+}.bodybody{
+  width: 90%;
+  height: 20vw;
+  color: grey;
+  margin-top: 2vw;
+  margin-left: -3.5vw;
+  font-size: 1.5vw;
+  text-align: center;
+  display: grid;
+  grid: auto / auto;
+  gap: 1vw;
+}
+
+.graphicsss:hover{
+  color: white;
+  font-size: 1.7vw;
+  font-weight: bold;
+  letter-spacing: 0.08vw;
+  transition-property: font-size;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+}
+
+.sketchinggg:hover{
+  color: white;
+  font-size: 1.7vw;
+  font-weight: bold;
+  letter-spacing: 0.08vw;
+  transition-property: font-size;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+}
+
+.uiuxxx:hover{
+  color: white;
+  font-size: 1.7vw;
+  font-weight: bold;
+  letter-spacing: 0.08vw;
+  transition-property: font-size;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+}
+
+.researchhh:hover{
+  color: white;
+  font-size: 1.7vw;
+  font-weight: bold;
+  letter-spacing: 0.08vw;
+  transition-property: font-size;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+}
+
+.gamedesignnn:hover{
+  color: white;
+  font-size: 1.7vw;
+  font-weight: bold;
+  letter-spacing: 0.08vw;
+  transition-property: font-size;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-out;
+}
+.contact_details{
+  color: lightgrey;
+  text-align: center;
+  margin-bottom: 10vw; 
+  width: 20vw;
+  line-height: 25px;
+  margin-left: 39.5vw; 
+ }
+ .footer{
+  width: 100%;
+  height: 2vw;
+  margin-top: -2vw;
+  display: grid;
+  grid: auto/ 50% 30%;
+}
+.resume{
+  width: 10vw;
+  height: 2vw;
+  color: white;
+  font-size: 1.2vw;
+  margin-left: 47vw; 
+  margin-top: 0.3vw;
+}
+.download{
+  margin: auto;
+  width: 1vw;
+   margin-right: 26vw; 
+}
+.download img{
+  width: 100%;
+  float: left;
+}
+
+@media screen and (max-width:640px){
+
+  @font-face{
+    font-family:'Roboto_Regular';
+    src: url('/public/font/Roboto_Regular.ttf');
+    
+  }
+  a{
+    text-decoration: none;
+    color: white;
+  }
+  
+  body{
+      width: 100%;
+      margin: auto;
+      background: rgb(30,30,30);
+      font-family: 'Roboto_Regular';
+  }
+  
+  .header{
+     width:100%;
+     height: 7vw;
+     background: rgb(28,28,28);
+     box-shadow: 2px 2px 1vw 5px rgb(45,45,45);
+     font-family: 'Roboto_Regular';
+    }
+  
+  .header_container{
+    width: 90%;
+    height: 6vw;
+    margin: auto;
+    padding-top: 0vw;
+    display: grid;
+    grid: 100%/ 50% 50%;
+    }
+  
+  .logo{
+    width: 12vw;
+    height: 5vw;
+    margin-top: 0.8vw;
+    font-size:4vw;
+    text-align: center;
+    color: white;
+    font-weight: bold;
+  }
+  .line{
+    display: none;
+  }
+  
+  .options_container{
+    display:none;
+  }
+
+  .name{
+    margin-top: 0.8vw;
+    width: 30vw;
+    margin-left: 11vw;
+    height: 5vw;
+    font-size: 4vw;
+    color: white;
+    font-style: italic; 
+  }
+  .body{
+    width:100%;
+  }
+  .timeline{
+     display:none;
+  }
+ .bodybody{
+  width:30vw;
+  height:50vw;
+  font-size: 4vw;
+  margin-left: 35vw;
+}
+.contact_details{
+      color: lightgrey;
+      width: 22vw;
+      color: white;
+      font-size: 3vw;
+      margin-left: 23vw; 
+      margin-top: 90vw;
+      
+     }
+     .footer{
+      width: 100%;
+      height: 2vw;
+      margin-top: 2vw;
+      display: grid;
+      grid: auto/ 50% 30%;
+    }
+    .resume{
+      width: 10vw;
+      height: 2vw;
+      color: white;
+      font-size: 4vw;
+      margin-left: 40vw; 
+      margin-top: 20vw;
+    }
+    .download{
+      margin: auto;
+      width: 3vw;
+      margin-right: 21vw; 
+      margin-top: 21.5vw;
+    }
+    .download img{
+      width: 100%;
+      float: left;
+    }
+  }
