@@ -303,6 +303,7 @@ font-style: italic;
   height: 98%;
   width: 100%;
   gap: 4vw;
+  display: none;
 }
 .C2 .c2r1{
   border: 0.05vw solid whitesmoke;
@@ -338,6 +339,7 @@ font-style: italic;
 .C3 {
   height: 98%;
   width: 75%;
+  display: none;
 }
 .C3 .c3r1{
   border: 0.05vw solid whitesmoke;
@@ -514,6 +516,7 @@ body{
   height: 70vw;
   width: 100%;
   gap: 4vw;
+  display: none;
 }
 .C2 .c2r1{
   border: 0.05vw solid whitesmoke;
@@ -549,6 +552,7 @@ body{
 .C3 {
   height: 70vw;
   width: 100%;
+  display: none;
 }
 .C3 .c3r1{
   border: 0.05vw solid whitesmoke;
