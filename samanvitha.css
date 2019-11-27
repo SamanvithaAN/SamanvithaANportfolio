@@ -278,7 +278,7 @@ font-style: italic;
   height: 36vw;
   margin:auto;
   display: grid;
-  grid: auto/ 25% 30% 45%;
+  grid: auto/ 50% 50%;
   gap: 4vw;
 }
 
@@ -379,7 +379,7 @@ font-style: italic;
   margin-left: 0.9vw;
   } 
 .c3c1r2{
-    border: 0.05vw soslid whitesmoke;
+    border: 0.05vw solid whitesmoke;
   border-radius: 1vw;
   height: 100%;
   width: 100%;
@@ -390,6 +390,11 @@ font-style: italic;
   height: 23%;
   width: 100%;
    margin-top: 1.4vw;
+}
+.infodescription{
+text-align: center;
+font-size: 3vw;
+line-height: 4vw;
 }
 .footer{
   width: 100%;
