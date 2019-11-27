@@ -278,7 +278,7 @@ font-style: italic;
   height: 36vw;
   margin:auto;
   display: grid;
-  grid: auto/ 25% 30% 45%;
+  grid: auto/ 25% 25%;
   gap: 4vw;
 }
 
