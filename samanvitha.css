@@ -274,7 +274,7 @@ font-style: italic;
   margin-left: 2vw; 
 }
 .persona{
-  width: 98%;
+  width: 95%;
   height: 36vw;
   margin:auto;
   display: grid;
@@ -291,7 +291,7 @@ font-style: italic;
 }
 .C1 img{
   margin: auto; 
-  width: 150%;
+  width: 140%;
   height: 100%;
   z-index: -1;
 }
